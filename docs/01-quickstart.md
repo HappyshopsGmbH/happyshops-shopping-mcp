@@ -41,17 +41,16 @@ Example:
 ```
 Minimal Shopping Flow (Happy Path)
 
-searchProduct (find SKUs)
+1. searchProduct (find SKUs)
 
-getProduct (inspect a SKU)
+2. getProduct (inspect a SKU)
 
-addToCart (create cart or update cart)
+3. addToCart (create cart or update cart)
 
-getCart (review totals / shipping)
+4. getCart (review totals / shipping)
 
-createOrder (checkout → returns external payment link)
+5. createOrder (checkout → returns external payment link)
 
-User pays externally
+6. User pays externally
 
-getOrder (optional: check status)
-Agents should rely on the MCP tool schema/description rather than hardcoding assumptions.
+7. getOrder (optional: check status)

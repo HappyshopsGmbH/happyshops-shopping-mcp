@@ -1,0 +1,14 @@
+{
+  "transport": {
+    "type": "socket",
+    "notes": "Socket-based Go daemon (long-lived connection)."
+  },
+  "mcpServers": {
+    "spiele-offensive-mcp": {
+      "url": "https://mcp.spiele-offensive.de/"
+    },
+    "puzzle-offensive-mcp": {
+      "url": "https://mcp.puzzle-offensive.de/"
+    }
+  }
+}

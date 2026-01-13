@@ -41,16 +41,16 @@ Example:
 ```
 Minimal Shopping Flow (Happy Path)
 
-1. searchProduct (find SKUs)
+1. `searchProduct` (find SKUs)
 
-2. getProduct (inspect a SKU)
+2. `getProduct` (inspect a SKU)
 
-3. addToCart (create cart or update cart)
+3. `addToCart` (create cart or update cart)
 
-4. getCart (review totals / shipping)
+4. `getCart` (review totals / shipping)
 
-5. createOrder (checkout → returns external payment link)
+5. `createOrder` (checkout → returns external payment link)
 
 6. User pays externally
 
-7. getOrder (optional: check status)
+7. `getOrder` (optional: check status)

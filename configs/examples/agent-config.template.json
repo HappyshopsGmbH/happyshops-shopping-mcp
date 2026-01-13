@@ -1,0 +1,63 @@
+{
+  "serverSelection": {
+    "strategy": "byBaseUrl",
+    "examples": [
+      "https://mcp.spiele-offensive.de/",
+      "https://mcp.puzzle-offensive.de/"
+    ]
+  },
+  "tooling": {
+    "allTools": [
+      "getProduct",
+      "searchProduct",
+      "addToCart",
+      "getCart",
+      "createOrder",
+      "getOrder",
+      "cancelOrder",
+      "getUser",
+      "getAuthKey",
+      "getFlowGraph"
+    ],
+    "publicTools": [
+      "getProduct",
+      "searchProduct",
+      "addToCart",
+      "getCart",
+      "createOrder",
+      "getFlowGraph"
+    ],
+    "authRequiredTools": [
+      "getUser",
+      "getOrder",
+      "cancelOrder"
+    ]
+  },
+  "authentication": {
+    "required": "only_for_private_data",
+    "flow": {
+      "tool": "getAuthKey",
+      "description": "Uses email + one-time code to obtain an auth key for accessing user/order data."
+    },
+    "authKeyHandling": {
+      "store": "persist_per_user",
+      "reuse": true,
+      "notes": "Once obtained, the auth key can be reused to access the user's order/account data."
+    }
+  },
+  "agentGuidelines": {
+    "recommendedFlow": [
+      "searchProduct",
+      "getProduct",
+      "addToCart",
+      "getCart",
+      "createOrder",
+      "getAuthKey (only if user/order data is requested)",
+      "getUser / getOrder / cancelOrder (only with auth key)"
+    ],
+    "safety": [
+      "Do not assume availability, shipping or pricing without calling tools.",
+      "If a tool returns an error or missing data, ask the user for clarification or retry with corrected parameters."
+    ]
+  }
+}

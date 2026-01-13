@@ -24,7 +24,7 @@ Send the user’s email address. The email must match the user’s account/order
 ```
 A one-time code is sent to the email address and is valid for ~10 minutes.
 
-Step 2 — Exchange code for an authKey
+### Step 2 — Exchange code for an authKey
 Send the email and the received code:
 
 ```json
@@ -38,7 +38,7 @@ Send the email and the received code:
 ```
 The MCP returns an authKey that is valid longer-term than the one-time code.
 
-Using the authKey
+# Using the authKey
 Once an authKey is obtained, it can be used to access private endpoints/tools:
 
 Example: getUser
@@ -63,7 +63,7 @@ Example: getCart (protected cart data)
   }
 }
 ```
-Agent Guidance
+# Agent Guidance
 Only start the auth flow if the user explicitly requests private data (orders, user/account details).
 
 Never guess or fabricate order states or user data.

@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://mcp.puzzle-offensive.de/",
+  "currency": "EUR",
+  "languages": ["de", "en"],
+  "country": "DE",
+  "shipping": {
+    "scope": "worldwide"
+  }
+}

@@ -1,4 +1,4 @@
-mcp-shopping-quickstart
+#mcp-shopping-quickstart
 
 A minimal agent-friendly starter repository showing how to connect to and use our MCP Shopping Server.
 

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q1",
+    "shop_hint": "spiele-offensive",
+    "query": "Search for Catan and show me the best 3 options."
+  },
+  {
+    "id": "q2",
+    "shop_hint": "puzzle-offensive",
+    "query": "I want a Ravensburger puzzle with 1000 pieces under 20€."
+  },
+  {
+    "id": "q3",
+    "shop_hint": "spiele-offensive",
+    "query": "Add SKU 12345 with quantity 2 to my cart."
+  },
+  {
+    "id": "q4",
+    "shop_hint": "puzzle-offensive",
+    "query": "Show me product details for SKU 100080 (price, stock, images)."
+  },
+  {
+    "id": "q5",
+    "shop_hint": "puzzle-offensive",
+    "query": "I want to ship to the US. Please calculate shipping in my cart if possible."
+  },
+  {
+    "id": "q6",
+    "shop_hint": "puzzle-offensive",
+    "query": "Checkout my cart with PayPal. My billing address is: Max Mustermann, Musterstrasse 1, 12345 Berlin, DE, user@example.com"
+  },
+  {
+    "id": "q7",
+    "shop_hint": "puzzle-offensive",
+    "query": "I want to view my orders. My email is user@example.com"
+  },
+  {
+    "id": "q8",
+    "shop_hint": "puzzle-offensive",
+    "query": "Here is my code 123456. Please get my auth key and show my user data."
+  },
+  {
+    "id": "q9",
+    "shop_hint": "puzzle-offensive",
+    "query": "Cancel order 999999 for user@example.com"
+  },
+  {
+    "id": "q10",
+    "shop_hint": "puzzle-offensive",
+    "query": "I need help with a return. What should I do?"
+  }
+]

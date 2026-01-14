@@ -1,0 +1,24 @@
+{
+  "name": "happyshops-mcp-examples-node",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "connect": "tsx src/00_connect.ts",
+    "flowgraph": "tsx src/01_flowgraph.ts",
+    "search": "tsx src/02_search.ts",
+    "product": "tsx src/03_product_details.ts",
+    "cart-flow": "tsx src/04_cart_flow.ts",
+    "checkout-flow": "tsx src/05_checkout_flow.ts",
+    "auth-get-user": "tsx src/06_auth_get_user.ts",
+    "get-order": "tsx src/07_get_order.ts",
+    "cancel-order": "tsx src/08_cancel_order.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "eventsource": "^2.0.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
